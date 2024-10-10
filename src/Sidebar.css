@@ -1,0 +1,116 @@
+.main_section{
+    width: 180px;
+    height: 100vh;
+    padding: 0px 20px;
+    box-shadow: 2px 0 5px rgba(211, 209, 209, 0.1);
+    display: flex;
+    flex-direction: column; 
+  }
+  .logo_image{
+    height:80px; 
+    width: 150px;
+  }
+  .btn1{
+    font-size: 13px;
+    line-height: 1.25rem;
+    border-radius: 30px;
+    height:55px;
+    width:180px;
+    background-color:#fff;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:#515150d0;
+    padding:10px 10px;
+  }
+  .btn1:hover{
+    border: 2px solid #21808d;
+  }
+  .sidebar_menu {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+  }
+  .sidebar_menu li {
+    margin: 15px 0;
+  
+  }
+  .sidebar_menu a {
+    text-decoration: none;
+    color: #6e6d6d;
+    font-size: 16px;
+    
+  }
+  
+  .signup_btn {
+    padding: 12px 20px;
+    background-color: #257984;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+   
+  }
+  .signup_btn:hover{
+    background-color: #459397;
+  }
+  
+  .pro_div {
+  padding: 100px 0px;  
+  }
+  
+  .pro_div h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .pro_div p {
+    font-size: 14px;
+    margin: 0 0 15px;
+    color: #666;
+  }
+  
+  .download_btn{
+    border: none;
+    font-size: 14px;
+    color: #4a4a4a;
+  }
+  
+  .pro_div .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #c7c4c4 ;
+  }
+  
+  .download_btn {
+    color: rgb(132, 126, 126);
+    padding: 4px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .download_btn:hover {
+    background-color: #d6d6d6;
+  }
+  
+  .icon {
+    width: 22px;
+    height: 22px;
+    margin-left:10px;
+  }
+  .sidebar_icons{
+    display: flex;
+  }
+  .font_icon{
+    margin-top: 20px;
+    margin-right: 5px;
+    font-size: 15px;
+  }
